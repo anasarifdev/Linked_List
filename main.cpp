@@ -22,22 +22,7 @@ int main()	// Main function started*********************************************
 	cout << "\nDisplaying List after adding 5 Nodes:\n";
 	myLinkList.displayList();
 
-	// Moving current Node Backward
-	myLinkList.moveBack();
-	cout << "\nAfter Moving current Node Backward:\n";
-	cout << myLinkList.get() << endl;
 
-	// Inserting Node in the beginning
-	myLinkList.insertAtBegin(5);
-	// Displaying List after Inserting Node in the beginning
-	cout << "\nDisplaying List after adding Node in the beginning:\n";
-	myLinkList.displayList();
-
-	// Inserting Node at specific index
-	myLinkList.insertTo(12, 2);
-	// Displaying List after inserting Node at specific index
-	cout << "\nDisplaying List after inserting Node at 2nd index:\n";
-	myLinkList.displayList();
 
 	// Inserting Node at the end
 	myLinkList.insertAtEnd(20);
